@@ -1,5 +1,8 @@
 CLAIDE_DISABLE_AUTO_WRAP=TRUE COCOAPODS_SKIP_CACHE=TRUE CP_REPOS_DIR=ROOT/spec/fixtures/spec-repos XCODEPROJ_DISABLE_XCPROJ=TRUE ruby ROOT/bin/pod lib lint --verbose --no-ansi --no-verbose 2>&1
 
  -> BananaLib -> BananaLib (1.0)
+    - ERROR | [iOS] Returned an unsuccessful exit code. You can use `--verbose` for more information.
+    - NOTE  |  Target Support Files/BananaLib/BananaLib-prefix.pch:5:9: fatal error: 'BananaLib-environment.h' file not found
 
-BananaLib passed validation.
+[!] BananaLib did not pass validation, due to 1 error.
+You can use the `--no-clean` option to inspect any issue.
